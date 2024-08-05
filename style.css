@@ -2,8 +2,10 @@
 
 :root {
     --color-cyan-300: #8FE3F9;
+    --color-cyan-custom: #71C0D4;
     --color-cyan-600: #4D96A9;
     --color-cyan-600-grad: rgba(77,150,168,0.9);
+    --color-purple-custom: #B18BDD;
     --color-purple-300: #D9B8FF;
     --color-purple-600: #855FB1;
     --color-slate-300: #D1D1DF;
@@ -107,22 +109,39 @@ p {
     padding: 1.6rem 4rem;
     border-radius: 2.9rem;
     border: none;
+    cursor: pointer;
 }
+
 
 .hero__text-box a {
     display: inline-block;
     text-decoration: none;
     color: var(--color-white);
     background-color: var(--color-purple-600);
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.hero__text-box a:hover {
+    background-color: var(--color-purple-300);
 }
 
 .btn {
     margin-bottom: 1.6rem;
     background-color: var(--color-cyan-600);
     color: var(--color-white);
+    transition: all .2s;
 }
 
 .btn span {
+    color: var(--color-cyan-300);
+}
+
+.btn:hover {
+    background-color: var(--color-cyan-custom);
+}
+
+.btn:hover span {   
     color: var(--color-cyan-300);
 }
 
@@ -208,6 +227,16 @@ footer {
 
 .btn--footer {
     background-color: var(--color-purple-600);
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btn--footer:hover {
+    background-color: var(--color-purple-custom);
+}
+
+.btn--footer:hover span {
+    color: var(--color-purple-300);
 }
 
 .btn--footer span {
