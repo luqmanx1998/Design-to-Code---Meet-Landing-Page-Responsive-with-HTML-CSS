@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Meet landing page</title>
+</head>
+<body>
+    <header class="hero">
+
+      <img src="assets/logo.svg" alt="Meet logo" class="hero__logo">
+
+      <picture>
+          <source srcset="assets/tablet/combined-image.png"
+          media="(min-width: 48em)">
+          <img src="assets/mobile/combined-image.svg" alt="Hero Image" class="hero__img">
+      </picture>
+      
+      <div class="hero__container">
+        <img src="assets/desktop/image-hero-left.png" alt="Hero left side image" class="hero__left-side-img">
+
+      <div class="hero__text-box">
+      <h1 class="hero__header">Group Chat<br> for Everyone</h1>
+        <p class="hero__text">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+        <div class="hero__btn-box">
+          <button class="btn">Download <span>v1.3</span></button>
+        <a href="#">What is it?</a>
+        </div>
+      </div>
+        <img src="assets/desktop/image-hero-right.png" alt="Hero right side image" class="hero__right-side-img">
+
+    </div>
+    </header>
+
+    <main class="features">
+        <img src="assets/number1.svg" alt="node-step-1" class="features__step-box-1">
+
+      <div class="features__gallery">
+        <img src="assets/desktop/image-woman-in-videocall.jpg" alt="Woman in videocall">
+        <img src="assets/desktop/image-women-videochatting.jpg" alt="Women videochatting">
+        <img src="assets/desktop/image-men-in-meeting.jpg" alt="Men in meeting">
+        <img src="assets/desktop/image-man-texting.jpg" alt="Man texting">
+      </div>
+
+      <div class="features__text-box">
+        <p class="features__header">Built for modern use</p>
+        <h2 class="features__title">Smarter meetings, all in one place</h2>
+        <p class="features__text">
+          Send messages, share files, show your screen, and record your meetings - all in one workspace. Control who can join with invite-only team access, data encryption, and data export.
+        </p>
+      </div>
+
+      <img src="assets/number2.svg" alt="node-step-2" class="features__step-box-2">
+    </main>
+
+    <footer>
+      <div class="footer__text-box">
+        <h2 class="footer__header">Experience more</h2>
+        <p class="footer__text">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions. 
+        </p>
+        <button class="btn btn--footer">Download <span>v1.3</span></button>
+      </div>
+    </footer>
+</body>
+</html>
