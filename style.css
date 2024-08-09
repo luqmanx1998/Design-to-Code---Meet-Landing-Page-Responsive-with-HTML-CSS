@@ -339,7 +339,10 @@ footer {
     .features__header {
         font-size: 1.6rem;
     }
-
+    
+    .features__gallery {
+        gap: 3.2rem;
+    }
     .hero {
         margin-bottom: 0;
     }
